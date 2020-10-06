@@ -5,7 +5,7 @@ const bodyParser = require('body-parser')
 var cookieParser = require('cookie-parser')
 const expressValidator = require('express-validator')
 var cors = require('cors')
-const keys = require('./config/key')
+
 require('./model/user')
 require('./model/post')
 require('dotenv').config()
